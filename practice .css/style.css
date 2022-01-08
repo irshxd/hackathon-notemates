@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+font-family: 'Bebas Neue', cursive;
+
+}
+header{background-image: url(../5.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ul{float: right;
+list-style: none;
+margin-top: 25px;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: beige;
+padding: 5px;
+border: rgb(240, 134, 6) 1px solid;
+transition: 0.6s ease;
+}
+ul li a:hover{
+background-color: bisque;
+color: black;
+}
+.LOGO img{
+    height: auto;
+    width: 150px;
+    float: left;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
